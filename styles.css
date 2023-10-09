@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-align-r{
+    text-align: right;
+}
+
+header{
+    margin-bottom: 14rem;
+}
+.article h2{
+    margin-bottom: 2rem;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 15px;
+}
+.nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.nav li a:hover{
+    font-weight: 700;
+}
+
+.row {
+    height: 90vh;
+    width: 99vw;
+
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear:both
+}
+
+.column {
+    float:left;
+    width: 50%;
+    height: 100%;;
+}
+
+.c-1{
+    padding: 15px;
+}
+
+.image-container{
+    height: inherit;
+    background-image: url("images/beach.jpg");
+    background-size: cover;
+}
+
+footer{
+   margin-top: 2rem;
+   padding: 15px;
+   background-color: rgb(194, 194, 194);
+}
